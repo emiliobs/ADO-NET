@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{CD4B9E01-E909-4F6D-839D-FD108B5921A2}</ProjectGuid>
+    <ProjectGuid>{12A266F4-ECDD-4757-9189-75082FF867B3}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SqlDataReaderobject_sNextResultmethod</RootNamespace>
-    <AssemblyName>SqlDataReaderobject%27sNextResultmethod</AssemblyName>
+    <RootNamespace>SqlDataAdapterinADO.NET</RootNamespace>
+    <AssemblyName>SqlDataAdapterinADO.NET</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -142,9 +142,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>7885</DevelopmentServerPort>
+          <DevelopmentServerPort>6209</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:7885/</IISUrl>
+          <IISUrl>http://localhost:6209/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
