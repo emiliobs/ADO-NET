@@ -17,6 +17,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sqlinjectiontutorial", "..\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlDataAdapterinADO.NET", "SqlDataAdapterinADO.NET\SqlDataAdapterinADO.NET.csproj", "{12A266F4-ECDD-4757-9189-75082FF867B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSetinasp.net", "DataSetinasp.net\DataSetinasp.net.csproj", "{31AB4CC2-9831-47E5-8F58-B5D1936605BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "achingdatasetinasp.net", "achingdatasetinasp.net\achingdatasetinasp.net.csproj", "{F1A34787-27BB-4B69-ABDD-11A4A031AC5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatisSqlCommandBuilder", "WhatisSqlCommandBuilder\WhatisSqlCommandBuilder.csproj", "{67AD99CD-FEC1-43E8-89F2-D9FE54134098}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sqlcommandbuilderupdatenotworking", "Sqlcommandbuilderupdatenotworking\Sqlcommandbuilderupdatenotworking.csproj", "{5AF54084-E473-418B-BCF3-D137956C508D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Disconnecteddataaccessinaspinnet", "Disconnecteddataaccessinaspinnet\Disconnecteddataaccessinaspinnet.csproj", "{A3EFCD52-058E-43E2-AE49-D19C3C119C18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +61,26 @@ Global
 		{12A266F4-ECDD-4757-9189-75082FF867B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12A266F4-ECDD-4757-9189-75082FF867B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12A266F4-ECDD-4757-9189-75082FF867B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31AB4CC2-9831-47E5-8F58-B5D1936605BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31AB4CC2-9831-47E5-8F58-B5D1936605BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31AB4CC2-9831-47E5-8F58-B5D1936605BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31AB4CC2-9831-47E5-8F58-B5D1936605BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1A34787-27BB-4B69-ABDD-11A4A031AC5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1A34787-27BB-4B69-ABDD-11A4A031AC5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1A34787-27BB-4B69-ABDD-11A4A031AC5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1A34787-27BB-4B69-ABDD-11A4A031AC5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67AD99CD-FEC1-43E8-89F2-D9FE54134098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67AD99CD-FEC1-43E8-89F2-D9FE54134098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67AD99CD-FEC1-43E8-89F2-D9FE54134098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67AD99CD-FEC1-43E8-89F2-D9FE54134098}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AF54084-E473-418B-BCF3-D137956C508D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF54084-E473-418B-BCF3-D137956C508D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF54084-E473-418B-BCF3-D137956C508D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF54084-E473-418B-BCF3-D137956C508D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3EFCD52-058E-43E2-AE49-D19C3C119C18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3EFCD52-058E-43E2-AE49-D19C3C119C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3EFCD52-058E-43E2-AE49-D19C3C119C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3EFCD52-058E-43E2-AE49-D19C3C119C18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
