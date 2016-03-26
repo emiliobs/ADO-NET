@@ -11,6 +11,8 @@
     <div style="font-family:Arial">
         <asp:Button ID="btnGetDataFromDB" runat="server" Text="Get Data From DB" OnClick="btnGetDataFromDB_Click1" />
 
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Undo" />
+
         <asp:GridView ID="gvStudents" runat="server" AutoGenerateColumns="False" DataKeyNames="ID" OnRowCancelingEdit="gvStudents_RowCancelingEdit" OnRowDeleting="gvStudents_RowDeleting" OnRowEditing="gvStudents_RowEditing" OnRowUpdated="gvStudents_RowUpdated" OnRowUpdating="gvStudents_RowUpdating">
             <Columns>
                 <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
@@ -22,7 +24,7 @@
         </asp:GridView>    
 
         <asp:Button ID="btnUpdateDB" runat="server" Text="Update" OnClick="btnUpdateDB_Click"/>
-       
+        <br />
         <asp:Label ID="lblMessage" runat="server"></asp:Label>
     </div>
     </form>

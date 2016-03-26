@@ -167,5 +167,53 @@ namespace Disconnecteddataaccessinaspinnet
                 }
             }
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            DataSet ds = (DataSet)Cache["DATASET"];
+
+            ds.AcceptChanges();
+            Cache.Insert("DATASET", ds, null, DateTime.Now.AddHours(24), System.Web.Caching.Cache.NoSlidingExpiration);
+            GetDataFromCahe();
+
+            //if (ds.HasChanges())
+            //{
+            //    ds.RejectChanges();
+            //    Cache.Insert("DATASET", ds, null, DateTime.Now.AddHours(24), System.Web.Caching.Cache.NoSlidingExpiration);
+            //    GetDataFromCahe();
+
+            //    lblMessage.Text = "Changes Undone....";
+            //    lblMessage.Font.Bold = true;
+            //    lblMessage.ForeColor = System.Drawing.Color.Green;
+
+
+            //}
+            //else
+            //{
+            //    lblMessage.Text = "No changes to Undo....";
+            //    lblMessage.Font.Bold = true;
+            //    lblMessage.ForeColor = System.Drawing.Color.Red;
+            //}
+
+           // DataRow newDataRow = ds.Tables["Students"].NewRow();
+           // newDataRow["Id"] = 555;
+           //// ds.Tables["Students"].Rows.Add(newDataRow);
+
+           // foreach (DataRow dr  in  ds.Tables["Students"].Rows)
+           // {
+           //     if (dr.RowState == DataRowState.Deleted)
+           //     {
+           //         Response.Write(dr["Id", DataRowVersion.Original].ToString() + " - "  + dr.RowState.ToString() + "<br/>");
+           //     }
+           //     else
+           //     {
+           //        Response.Write(dr["Id"].ToString() + " - " + dr.RowState.ToString() + "<br/>");      
+           //     }
+
+
+           // }
+
+           // Response.Write(newDataRow.RowState.ToString());
+        }
     }
 }
