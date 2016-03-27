@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Disconnecteddataaccessinasp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strongly typed datasets", "Strongly typed datasets\Strongly typed datasets.csproj", "{C5C8CEE6-4C54-48B7-A6C8-E8C4E60308D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loadxmldataintosqlservertableusingsqlbulkcopy", "Loadxmldataintosqlservertableusingsqlbulkcopy\Loadxmldataintosqlservertableusingsqlbulkcopy.csproj", "{B6612A07-4450-4CB7-93D0-763C15C81CC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sqlbulkcopynotifyafterexample", "sqlbulkcopynotifyafterexample\sqlbulkcopynotifyafterexample.csproj", "{C7A6DF52-AE45-41C6-9B8A-48530F37AC18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{C5C8CEE6-4C54-48B7-A6C8-E8C4E60308D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5C8CEE6-4C54-48B7-A6C8-E8C4E60308D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5C8CEE6-4C54-48B7-A6C8-E8C4E60308D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6612A07-4450-4CB7-93D0-763C15C81CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6612A07-4450-4CB7-93D0-763C15C81CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6612A07-4450-4CB7-93D0-763C15C81CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6612A07-4450-4CB7-93D0-763C15C81CC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7A6DF52-AE45-41C6-9B8A-48530F37AC18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7A6DF52-AE45-41C6-9B8A-48530F37AC18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7A6DF52-AE45-41C6-9B8A-48530F37AC18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7A6DF52-AE45-41C6-9B8A-48530F37AC18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
