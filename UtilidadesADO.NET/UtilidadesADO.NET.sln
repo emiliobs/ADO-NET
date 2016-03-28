@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loadxmldataintosqlservertab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sqlbulkcopynotifyafterexample", "sqlbulkcopynotifyafterexample\sqlbulkcopynotifyafterexample.csproj", "{C7A6DF52-AE45-41C6-9B8A-48530F37AC18}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionsinADONET1", "TransactionsinADONET1\TransactionsinADONET1.csproj", "{12A2A340-84BC-4170-9228-2CD9C2E985CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{C7A6DF52-AE45-41C6-9B8A-48530F37AC18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7A6DF52-AE45-41C6-9B8A-48530F37AC18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7A6DF52-AE45-41C6-9B8A-48530F37AC18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12A2A340-84BC-4170-9228-2CD9C2E985CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12A2A340-84BC-4170-9228-2CD9C2E985CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12A2A340-84BC-4170-9228-2CD9C2E985CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12A2A340-84BC-4170-9228-2CD9C2E985CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
